@@ -12,13 +12,13 @@ $jam= array('01','02','03','04','05','06','07','08','09','10','11','12','13','14
 $sapa=array(
 ' ▶ @['.$stat[data][$i-1][from][id].':1] 
 
-❤ Ch Botters ❤',
+❤ Ch Botters ❤ Zain-Aqdas,Ml ❤',
  );
 $ucapan = gmdate('H',time()+7*3600); $ucapan = str_replace($jam,$sapa,$ucapan);
 $pesan= array(
 '▶ @['.$stat[data][$i-1][from][id].':1] 
 
-❤ Ch Botters ❤',
+❤ Ch Botters ❤ Zain-Aqdas,Ml ❤',
 );
 $pesan=$pesan[rand(0,count($pesan)-1)];
 $message=$pesan;
